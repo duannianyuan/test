@@ -1,0 +1,19 @@
+@charset "UTF-8";
+.search {
+	width: 1200px;
+	margin: 50px auto;
+	padding: auto auto;
+}
+
+.list {
+	width: 1200px;
+	margin: 50px auto;
+	padding: auto auto;
+}
+
+.discription > h2{
+	display:block;
+	width: 1200px;
+	margin: auto auto;
+	padding: auto auto;
+}
