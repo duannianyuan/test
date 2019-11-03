@@ -1,0 +1,149 @@
+/* flex布局三张图 */
+.fifth {
+    position: relative;
+    margin-top: 10px;
+    left: 360px;
+    width: 1200px;
+    height: 150px;
+    /*background-color: aqua;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fifth .child1 {
+    flex-basis: 395px;
+    /*background-color: #000;*/
+    background-image: url("../img/flex_1.jpg");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.fifth .child1 .item1 {
+    position: absolute;
+    top: 35px;
+    left: 40px;
+    width: 197px;
+    height: 86px;
+}
+.fifth .child1 .item1 div:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 196px;
+    height: 18px;
+}
+.fifth .child1 .item1 div:nth-child(2) {
+    position: absolute;
+    top: 28px;
+    left: 0;
+    width: 196px;
+    height: 18px;
+}
+.fifth .child1 .item1 div:nth-child(3) {
+    position: absolute;
+    top: 72px;
+    left: 0;
+    width: 196px;
+    height: 18px;
+}
+
+.fifth .child2 {
+    flex-basis: 395px;
+    /*background-color: #fff;*/
+    background-image: url("../img/flex_2.jpg");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.fifth .child2 .item2 {
+    position: absolute;
+    top: 35px;
+    left: 442px;
+    width: 197px;
+    height: 86px;
+}
+.fifth .child2 .item2 div:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 196px;
+    height: 18px;
+}
+.fifth .child2 .item2 div:nth-child(2) {
+    position: absolute;
+    top: 28px;
+    left: 0;
+    width: 196px;
+    height: 18px;
+}
+.fifth .child2 .item2 div:nth-child(3) {
+    position: absolute;
+    top: 72px;
+    left: 0;
+    width: 196px;
+    height: 18px;
+}
+
+.fifth .child3 {
+    flex-basis: 395px;
+    /*background-color: pink;*/
+    background-image: url("../img/flex_3.jpg");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.fifth .child3 .item3 {
+    position: absolute;
+    top: 35px;
+    left: 844px;
+    width: 197px;
+    height: 86px;
+}
+.fifth .child3 .item3 div:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 196px;
+    height: 18px;
+}
+.fifth .child3 .item3 div:nth-child(2) {
+    position: absolute;
+    top: 28px;
+    left: 0;
+    width: 196px;
+    height: 18px;
+}
+.fifth .child3 .item3 div:nth-child(3) {
+    position: absolute;
+    top: 72px;
+    left: 0;
+    width: 196px;
+    height: 18px;
+}
+
+/* 字体样式 */
+.fifth .child .item div:nth-child(1) {
+     font-family: MicrosoftYaHei-Bold;
+     font-size: 18px;
+     line-height: 18px;
+     letter-spacing: 0;
+     color: #eeeeee;
+ }
+
+.fifth .child .item div:nth-child(2) {
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #eeeeee;
+    opacity: 0.7;
+}
+
+.fifth .child .item div:nth-child(3) {
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #ff2e2e;
+}

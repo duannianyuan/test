@@ -1,0 +1,59 @@
+/* banner动画 */
+/* 播放上一张banner图动画 */
+@keyframes prev {
+    /* 当前元素动画 */
+    from{
+        transform: translateX(560px);
+    }
+    to {
+        transform: translateX(1360px);
+    }
+}
+
+@keyframes prev1 {
+    /* 相对当前元素的第一个元素的动画 */
+    from {
+        transform: translateX(-240px);
+    }
+    to {
+        transform: translateX(560px);
+    }
+}
+
+/* 播放下一张banner图动画 */
+@keyframes next {
+    /* 当前元素的动画 */
+    from {
+       transform: translateX();
+    }
+    to {
+        transform: translateX();
+    }
+}
+
+@keyframes next1 {
+    /* 当前元素上一个元素动画 */
+    from {
+        transform: translateX();
+    }
+    to {
+        transform: translateX();
+    }
+}
+
+
+/*.prev {*/
+/*    animation: prev linear;*/
+/*}*/
+
+/*.prev1 {*/
+/*    animation: prev1 linear;*/
+/*}*/
+
+/*.next {*/
+/*    animation: next linear;*/
+/*}*/
+
+/*.next1 {*/
+/*    animation: next1 linear;*/
+/*}*/

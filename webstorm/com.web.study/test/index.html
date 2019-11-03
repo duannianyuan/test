@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>开心购商城</title>
+    <link rel="shortcut icon" href="./icon/favicon-20190902092036468.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/nor.css">
+    <link rel="stylesheet" href="./css/body.css">
+    <link rel="stylesheet" href="./css/first.css">
+    <link rel="stylesheet" href="./css/second.css">
+    <link rel="stylesheet" href="./css/third.css">
+    <link rel="stylesheet" href="./css/fourth.css">
+    <link rel="stylesheet" href="./css/fifth.css">
+    <link rel="stylesheet" href="css/sixth.css">
+    <link rel="stylesheet" href="./css/seventh.css">
+    <link rel="stylesheet" href="./css/eighth.css">
+    <link rel="stylesheet" href="./css/ninth.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/tenth.css">
+    <link rel="stylesheet" href="./css/eleventh.css">
+    <link rel="stylesheet" href="./css/banner_onclick.css">
+    <link rel="stylesheet" href="./css/banner_animation.css">
+    <script src="./js/jquery.js"></script>
+</head>
+<body>
+    <!--  导航栏  -->
+    <div class="first">
+        <div class="item item1">
+            <span></span>
+            <span>北京市、市辖区、东城区</span>
+            <span></span>
+        </div>
+        <div class="item item2">
+            <a onclick="">你好，请登录</a>
+            <span></span>
+            <a onclick="">免费注册</a>
+            <span></span>
+            <a onclick="">我的订单</a>
+            <span></span>
+            <a onclick="">我的浏览</a>
+            <span></span>
+            <a onclick="">我的收藏</a>
+            <span></span>
+            <a onclick="">客户服务</a>
+            <span></span>
+            <a onclick="">网站导航</a>
+            <div class="child"></div>
+        </div>
+    </div>
+    <!--  搜索框  -->
+    <div class="second">
+        <div class="item1"></div>
+        <div class="item2">
+            <input type="text" placeholder="请输入关键字">
+            <div class="search"></div>
+            <button id="btn">搜索</button>
+        </div>
+        <div class="item3">
+            <div class="child1"></div>
+            <div class="child2">我的购物车</div>
+            <div class="child3">0</div>
+        </div>
+        <div class="item4">
+            <div class="keyword" onclick="">手机</div>
+            <div class="keyword" onclick="">小米</div>
+            <div class="keyword" onclick="">iphone</div>
+            <div class="keyword" onclick="">三星</div>
+            <div class="keyword" onclick="">华为</div>
+            <div class="keyword" onclick="">冰箱</div>
+        </div>
+    </div>
+    <!--  商品分类导航栏  -->
+    <div class="third">
+        <div class="item1">
+            <div class="child1"></div>
+            <div class="child2">全部商品分类</div>
+        </div>
+        <div class="item2">
+            <a href="#" onclick="">首页</a>
+            <a href="#" onclick="">手机城</a>
+            <a href="#" onclick="">珠宝</a>
+            <a href="#" onclick="">家电城</a>
+            <a href="#" onclick="">促销商品</a>
+            <a href="#" onclick="">预售</a>
+            <a href="#" onclick="">数码城</a>
+            <a href="#" onclick="">团购</a>
+            <a href="#" onclick="">积分商城</a>
+        </div>
+    </div>
+    <!--  banner  -->
+    <div class="fourth">
+        <!-- 左侧菜单 -->
+        <div class="item1">
+            <div class="child child1">
+                <div></div>
+                <div>家用电器</div>
+            </div>
+            <div class="child child2">
+                <div></div>
+                <div>电脑</div>
+            </div>
+            <div class="child child3">
+                <div></div>
+                <div>家具</div>
+            </div>
+            <div class="child child4">
+                <div></div>
+                <div>服装</div>
+            </div>
+            <div class="child child5">
+                <div></div>
+                <div>箱包</div>
+            </div>
+            <div class="child child6">
+                <div></div>
+                <div>个人化妆</div>
+            </div>
+        </div>
+        <!-- 轮播图 -->
+        <div class="item2">
+            <img class="banner banner1" src="./img/banner1.jpg" alt="">
+            <img class="banner banner2" src="./img/banner2.jpg" alt="">
+            <img class="banner banner3" src="./img/banner3.jpg" alt="">
+            <img class="banner banner4" src="./img/banner4.jpg" alt="">
+            <img id="auto" class="banner banner5" src="./img/banner5.jpg" alt="">
+        </div>
+        <!-- 展示图 -->
+        <div class="item3">
+            <img src="./img/SecKill_1.jpg" alt="">
+            <img src="./img/SecKill_1.jpg" alt="">
+        </div>
+        <!-- 脱离文档流内容 -->
+        <div class="item4">
+            <div>
+                <span></span>
+            </div>
+            <div>
+                <span></span>
+            </div>
+            <div>
+                <span></span>
+            </div>
+            <div>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- banner事件 -->
+    <div class="banner_onclick">
+        <!-- 左右轮播事件 -->
+        <div class="left" id="left"></div>
+        <div class="right" id="right"></div>
+        <!-- 正方轮播事件 -->
+        <div class="box">
+            <div class="btn btn1"></div>
+            <div class="btn btn2"></div>
+            <div class="btn btn3"></div>
+            <div class="btn btn4"></div>
+            <div class="btn btn5"></div>
+        </div>
+    </div>
+    <!-- flex布局三张图 -->
+    <div class="fifth">
+        <div class="child child1">
+            <div class="item item1">
+                <div>膜法世家  植物精华面膜</div>
+                <div>滋润生活 每一天</div>
+                <div>￥156.00</div>
+            </div>
+        </div>
+        <div class="child child2">
+            <div class="item item2">
+                <div>法国进口  经典香水</div>
+                <div>迷人香味 高贵典雅</div>
+                <div>￥1280.00</div>
+            </div>
+        </div>
+        <div class="child child3">
+            <div class="item item3">
+                <div>万人迷  女士高跟鞋</div>
+                <div>女神必备之物 值得拥有</div>
+                <div>￥698.00</div>
+            </div>
+        </div>
+    </div>
+    <!-- 家电商品展示列表 -->
+    <div class="sixth">
+        <!-- 左侧 -->
+        <div class="child1">
+            <div class="item1">
+                <div></div>
+                <div>家用电器</div>
+            </div>
+            <div class="item3"><img src="./img/pic_2.jpg" alt=""></div>
+            <div class="item4"><img src="./img/pic_3.jpg" alt=""></div>
+        </div>
+        <!-- 中间 -->
+        <div class="child2">
+            <div class="item1">
+                <a>生活电器</a>
+                <a>大家电</a>
+                <a>厨房电器</a>
+                <a>个护健康</a>
+                <a>五金交电</a>
+                <a>更多</a>
+                <div></div>
+            </div>
+            <!-- 第一个商品列表 通过js动态给每个商品添加事件 -->
+            <ul class="list1">
+                <li onclick="">
+                    <div><img src="./img/pic_4.jpg" alt=""></div>
+                    <div>
+                        长虹(CHANGHONG)49A1U
+                        49英寸双64位4K超清智能网络...
+                    </div>
+                    <div>￥2799.00</div>
+                </li>
+                <li onclick="">
+                    <div><img src="./img/goods_thumb_56_400_400.jpg" alt=""></div>
+                    <div>
+                        创维（skyworth）55M5
+                        55英寸4K超高清网络智能液晶电视机
+                    </div>
+                    <div>￥2399.00</div>
+                </li>
+                <li onclick="">
+                    <div><img src="./img/pic_6.jpg" alt=""></div>
+                    <div>
+                        TCLD50A710 50英寸 40万
+                        小时视频 全高清 内置WiFi 八核安卓...
+                    </div>
+                    <div>￥2000.00</div>
+                </li>
+                <li onclick="">
+                    <div><img src="./img/pic_7.jpg" alt=""></div>
+                    <div>
+                        海信彩电LED55EC290N
+                        55英寸 全高清 智能 网络 LED液晶电视
+                    </div>
+                    <div>￥1399.00</div>
+                </li>
+                <li onclick="">
+                    <div><img src="./img/pic_8.jpg" alt=""></div>
+                    <div>
+                        酷开(coocaa) K50 50英寸
+                        智能网络液晶平板电视 酷开系统WiFi
+                    </div>
+                    <div>￥2499.00</div>
+                </li>
+                <li onclick="">
+                    <div><img src="./img/pic_9.jpg" alt=""></div>
+                    <div>
+                        创维(Skyworth) 50S9 50英寸
+                        全高清 网络 WIFI 智能 LED液晶电视
+                    </div>
+                    <div>￥2599.00</div>
+                </li>
+            </ul>
+        </div>
+        <!-- 热门推荐 -->
+        <div class="child3">
+            <div class="item1">
+                <div>热门推荐</div>
+            </div>
+            <div class="item2">
+                <div class="list list1">
+                    <!-- 排名 -->
+                    <div>1</div>
+                    <!-- 标题 -->
+                    <div>
+                        创维(skyworth)
+                        55M555英寸...
+                    </div>
+                    <!-- 价格 -->
+                    <div>￥2399.00</div>
+                    <!-- 图片 -->
+                    <div><img src="./img/pic_1.jpg" alt=""></div>
+                </div>
+                <div class="list list2">
+                    <!-- 排名 -->
+                    <div>2</div>
+                    <!-- 标题 -->
+                    <div>
+                        TCL D50A710 50英寸 40万小时...
+                    </div>
+                    <!-- 价格 -->
+                    <div>￥2000.00</div>
+                </div>
+                <div class="list list3">
+                    <!-- 排名 -->
+                    <div>3</div>
+                    <!-- 标题 -->
+                    <div>
+                        酷开(coocaa) K50 50英寸智能网...
+                    </div>
+                    <!-- 价格 -->
+                    <div>￥2499.00</div>
+                </div>
+                <div class="list list4">
+                    <!-- 排名 -->
+                    <div>4</div>
+                    <!-- 标题 -->
+                    <div>
+                        创维(Skyworth) 50S9 50英寸全...
+                    </div>
+                    <!-- 价格 -->
+                    <div>￥2599.00</div>
+                </div>
+                <div class="list list5">
+                    <!-- 排名 -->
+                    <div>5</div>
+                    <!-- 标题 -->
+                    <div>
+                        长虹(CHANGHONG) 49A1U 49...
+                    </div>
+                    <!-- 价格 -->
+                    <div>￥1399.00</div>
+                </div>
+                <div class="list list6">
+                    <!-- 排名 -->
+                    <div>6</div>
+                    <!-- 标题 -->
+                    <div>
+                        长虹(CHANGHONG) 49A1U49...
+                    </div>
+                    <!-- 价格 -->
+                    <div>￥2799.00</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 展示图 -->
+    <div class="seventh">
+        <img onclick="" src="./img/pic_10.jpg" alt="">
+    </div>
+    <!-- 智能设备展示列表 -->
+    <div class="eighth">
+        <!-- 左侧 -->
+        <div class="child1">
+            <div class="item1">
+                <div></div>
+                <div>电脑/办公</div>
+            </div>
+            <div class="item3"><img src="./img/pic_11.jpg" alt=""></div>
+            <div class="item4"><img src="./img/pic_12.jpg" alt=""></div>
+        </div>
+        <!-- 中间 -->
+        <div class="child2">
+            <div class="item1">
+                <a>生活电器</a>
+                <a>大家电</a>
+                <a>厨房电器</a>
+                <a>个护健康</a>
+                <a>五金交电</a>
+                <a>更多</a>
+                <div></div>
+            </div>
+            <!-- 第二个商品列表 通过js动态给每个商品添加事件 -->
+            <ul class="list2">
+                <li>
+                    <div><img src="./img/repeat_com.jpg" alt=""></div>
+                    <div>
+                        长虹(CHANGHONG)49A1U
+                        49英寸双64位4K超清智能网络...
+                    </div>
+                    <div>￥2799.00</div>
+                </li>
+                <li>
+                    <div><img src="./img/honorX2_phone.jpg" alt=""></div>
+                    <div>
+                        创维（skyworth）55M5
+                        55英寸4K超高清网络智能液晶电视机
+                    </div>
+                    <div>￥2399.00</div>
+                </li>
+                <li>
+                    <div><img src="./img/HUAWEIM2_com.jpg" alt=""></div>
+                    <div>
+                        TCLD50A710 50英寸 40万
+                        小时视频 全高清 内置WiFi 八核安卓...
+                    </div>
+                    <div>￥2000.00</div>
+                </li>
+                <li>
+                    <div><img src="./img/X80Plus.jpg" alt=""></div>
+                    <div>
+                        海信彩电LED55EC290N
+                        55英寸 全高清 智能 网络 LED液晶电视
+                    </div>
+                    <div>￥1399.00</div>
+                </li>
+                <li>
+                    <div><img src="./img/note_com.jpg" alt=""></div>
+                    <div>
+                        酷开(coocaa) K50 50英寸
+                        智能网络液晶平板电视 酷开系统WiFi
+                    </div>
+                    <div>￥2499.00</div>
+                </li>
+                <li>
+                    <div><img src="./img/honor_com.jpg" alt=""></div>
+                    <div>
+                        创维(Skyworth) 50S9 50英寸
+                        全高清 网络 WIFI 智能 LED液晶电视
+                    </div>
+                    <div>￥2599.00</div>
+                </li>
+            </ul>
+        </div>
+        <!-- 热门推荐 -->
+        <div class="child3">
+            <div class="item1">
+                <div>热门推荐</div>
+            </div>
+            <div class="item2">
+                <div class="list list1">
+                    <!-- 排名 -->
+                    <div>1</div>
+                    <!-- 标题 -->
+                    <div>
+                        华为(HUAWEI)
+                        M2 10.0平板电...
+                    </div>
+                    <!-- 价格 -->
+                    <div>￥2399.00</div>
+                    <!-- 图片 -->
+                    <div><img src="./img/good_2.jpg" alt=""></div>
+                </div>
+                <div class="list list2">
+                    <!-- 排名 -->
+                    <div>2</div>
+                    <!-- 标题 -->
+                    <div>
+                        荣耀X2 标准版 双卡双待双通 移...
+                    </div>
+                    <!-- 价格 -->
+                    <div>￥1999.00</div>
+                </div>
+                <div class="list list3">
+                    <!-- 排名 -->
+                    <div>3</div>
+                    <!-- 标题 -->
+                    <div>
+                        华为（HUAWEI） M2 平板电脑...
+                    </div>
+                    <!-- 价格 -->
+                    <div>￥1588.00</div>
+                </div>
+                <div class="list list4">
+                    <!-- 排名 -->
+                    <div>4</div>
+                    <!-- 标题 -->
+                    <div>
+                        Teclast/台电 X80 Plus WIFI 32...
+                    </div>
+                    <!-- 价格 -->
+                    <div>￥499.00</div>
+                </div>
+                <div class="list list5">
+                    <!-- 排名 -->
+                    <div>5</div>
+                    <!-- 标题 -->
+                    <div>
+                        荣耀畅玩平板note 9.6英寸 平板...
+                    </div>
+                    <!-- 价格 -->
+                    <div>￥1499.00</div>
+                </div>
+                <div class="list list6">
+                    <!-- 排名 -->
+                    <div>6</div>
+                    <!-- 标题 -->
+                    <div>
+                        荣耀平板 8.0英寸平板电脑（Wi...
+                    </div>
+                    <!-- 价格 -->
+                    <div>￥799.00</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 售后服务 -->
+    <div class="ninth">
+        <div></div>
+        <div onclick="">
+            <div class="item1"></div>
+            <div class="item item2">7天无理由退货</div>
+        </div>
+        <div onclick="">
+            <div class="item3"></div>
+            <div class="item item4">15天免费换货</div>
+        </div>
+        <div onclick="">
+            <div class="item5"></div>
+            <div class="item item6">正品行货  品质保证</div>
+        </div>
+        <div onclick="">
+            <div class="item7"></div>
+            <div class="item item8">专业售后服务</div>
+        </div>
+        <div></div>
+    </div>
+    <!-- 网页底部 -->
+    <footer>
+        <div class="tenth">
+            <div class="child1">
+                <div>新手上路</div>
+                <div>购物指南</div>
+                <div>售后服务</div>
+                <div>支付方式</div>
+                <div>配送方式</div>
+                <div>联系我们</div>
+            </div>
+            <div class="child child2">
+                新用户注册<br>
+                积分细则<br>
+                忘记密码<br>
+                如何搜索<br>
+                积分兑换说明<br>
+            </div>
+            <div class="child child3">
+                会员修改密码<br>
+                修改个人资料<br>
+                会员等级<br>
+                常见问题<br>
+                修改收货地址<br>
+            </div>
+            <div class="child child4">
+                售后政策<br>
+                退换货流程<br>
+                退款说明<br>
+                取消订单<br>
+            </div>
+            <div class="child child5">
+                银联支付<br>
+                支付宝支付<br>
+                微信支付<br>
+                余额支付<br>
+                分期付款<br>
+            </div>
+            <div class="child child6">
+                免运费政策<br>
+                物流查询<br>
+                上门自提<br>
+                配送服务承诺<br>
+            </div>
+            <div class="child7">
+                02368771009
+            </div>
+            <div class="child child8">
+                周一至周日8：00-18：00<br>
+                (仅收市话费)
+            </div>
+
+            <!-- 友情链接 -->
+            <div class="child9">
+                <div>友情链接：</div>
+                <div><a href="https://www.jd.com/">京东</a></div>
+                <div><a href="https://www.tmall.com/">天猫</a></div>
+            </div>
+            <!-- 二维码 -->
+            <div class="child10">
+                <div class="item1"></div>
+                <div class="item2"></div>
+            </div>
+        </div>
+        <div class="eleventh">
+            <div class="child1">
+                <div>关于我们    |     联系我们     |    免运费政策     |    物流查询     |    上门自提     |    配送服务承诺</div>
+                <div>Copyright © 2015-2017 重庆马泽福电子商务有限公司 版权所有 保留一切权利 备案号: 渝ICP备17014927号-2</div>
+            </div>
+            <div class="child2">
+                <div class="flex">
+                    <div>
+                        <span></span>
+                        <span>
+                            经营性网站<br>
+                            备案信息<br>
+                        </span>
+                    </div>
+                    <div>
+                        <span></span>
+                        <span>
+                            可信网站<br>
+                            信用评价<br>
+                        </span>
+                    </div>
+                    <div>
+                        <span></span>
+                        <span>
+                            网络警察<br>
+                            提醒您<br>
+                        </span>
+                    </div>
+                    <div>
+                        <span></span>
+                        <span>诚信网站<br></span>
+                    </div>
+                    <div>
+                        <span></span>
+                        <span>
+                            中国互联网<br>
+                            举报中心<br>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<!-- js脚本 -->
+<script src="./js/banner.js"></script>
+<script src="./js/auto_banner.js"></script>
+<script src="./js/play_btn.js"></script>
+<!-- 添加商品列表 -->
+<script src="./js/ul_1.js"></script>
+</html>

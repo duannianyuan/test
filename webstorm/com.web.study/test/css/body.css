@@ -1,0 +1,7 @@
+/* body 样式 */
+body {
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    /*background-color: #eee;*/
+}

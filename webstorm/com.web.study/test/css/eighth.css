@@ -1,0 +1,656 @@
+/* 智能设备展示列表 : 可参照sixth */
+.eighth {
+    position: relative;
+    margin-top: 20px;
+    left: 360px;
+    width: 1200px;
+    height: 540px;
+    /*background-color: aqua;*/
+}
+
+.eighth .child1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 540px;
+}
+
+.eighth .child1 .item1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 58px;
+    background-color: #fff;
+    border-bottom: 2px solid #ff9381;
+}
+
+.eighth .child1 .item1 div:nth-child(1) {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    width: 22px;
+    height: 22px;
+    background-image: url("../img/selection2.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.eighth .child1 .item1 div:nth-child(2) {
+    position: absolute;
+    top: 18px;
+    left: 62px;
+    width: 90px;
+    height: 20px;
+    font-family: MicrosoftYaHei;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #333333;
+}
+
+.eighth .child1 .item3 {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 240px;
+    height: 352px;
+}
+
+.eighth .child1 .item3 img {
+    width: 240px;
+    height: 352px;
+}
+
+.eighth .child1 .item4 {
+    position: absolute;
+    top: 420px;
+    left: 0;
+    width: 240px;
+    height: 120px;
+}
+
+.eighth .child1 .item4 img {
+    width: 240px;
+    height: 120px;
+}
+
+.eighth .child2 {
+    position: absolute;
+    top: 0;
+    left: 240px;
+    width: 720px;
+    height: 540px;
+    /*background-color: red;*/
+    border-right: 2px solid #eee;
+}
+
+.eighth .child2 .item1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 720px;
+    height: 58px;
+    background-color: #fff;
+    border-bottom: 2px solid #ff9381;
+}
+
+.eighth .child2 .item1 a {
+    display: inline-block;
+    width: 93px;
+    height: 58px;
+    text-decoration: none;
+    color: #333;
+    line-height: 58px;
+    text-align: center;
+}
+
+.eighth .child2 .item1 a:hover {
+    background-color: #ff9381;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.eighth .child2 .item1 a:nth-child(6) {
+    background-color: transparent;
+    color: #333;
+    float: right;
+}
+
+.eighth .child2 .item1 div {
+    position: absolute;
+    top: 25px;
+    right: 12px;
+    width: 8px;
+    height: 11px;
+    background-image: url("../img/more.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+/* 商品展示1 */
+.eighth .child2 .list2 {
+    list-style: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
+/* 商品1 */
+.eighth .child2 .list2 li:nth-child(1) {
+    position: absolute;
+    left: 0;
+    width: 240px;
+    height: 240px;
+}
+
+/* 商品1图片框 */
+.eighth .child2 .list2 li:nth-child(1) div:nth-child(1) {
+    position: absolute;
+    top: 1px;
+    left: 24px;
+    width: 192px;
+    height: 192px;
+}
+
+/* 商品1标题 */
+.eighth .child2 .list2 li:nth-child(1) div:nth-child(2) {
+    position: absolute;
+    top: 168px;
+    left: 35px;
+    width: 171px;
+    height: 34px;
+}
+/* 商品1价格 */
+.eighth .child2 .list2 li:nth-child(1) div:nth-child(3) {
+    position: absolute;
+    top: 211px;
+    left: 84px;
+    width: 73px;
+    height: 14px;
+}
+
+/* 商品2 */
+.eighth .child2 .list2 li:nth-child(2) {
+    position: absolute;
+    left: 240px;
+    width: 240px;
+    height: 240px;
+}
+
+/* 商品2图片框 */
+.eighth .child2 .list2 li:nth-child(2) div:nth-child(1) {
+    position: absolute;
+    top: 5px;
+    left: 38px;
+    width: 162px;
+    height: 162px;
+}
+
+/* 商品2标题 */
+.eighth .child2 .list2 li:nth-child(2) div:nth-child(2) {
+    position: absolute;
+    top: 169px;
+    left: 21px;
+    width: 197px;
+    height: 33px;
+}
+
+/* 商品2价格 */
+.eighth .child2 .list2 li:nth-child(2) div:nth-child(3) {
+    position: absolute;
+    top: 211px;
+    left: 84px;
+    width: 73px;
+    height: 14px;
+}
+
+/* 商品3 */
+.eighth .child2 .list2 li:nth-child(3) {
+    position: absolute;
+    left: 480px;
+    width: 240px;
+    height: 240px;
+}
+
+/* 商品3图片框 */
+.eighth .child2 .list2 li:nth-child(3) div:nth-child(1) {
+    position: absolute;
+    top: 7px;
+    left: 41px;
+    width: 158px;
+    height: 158px;
+}
+
+/* 商品3标题 */
+.eighth .child2 .list2 li:nth-child(3) div:nth-child(2) {
+    position: absolute;
+    top: 169px;
+    left: 20px;
+    width: 200px;
+    height: 33px;
+}
+/* 商品3价格 */
+.eighth .child2 .list2 li:nth-child(3) div:nth-child(3) {
+    position: absolute;
+    top: 211px;
+    left: 84px;
+    width: 73px;
+    height: 14px;
+}
+
+/*商品4*/
+.eighth .child2 .list2 li:nth-child(4) {
+    position: absolute;
+    top: 240px;
+    left: 0;
+    width: 240px;
+    height: 240px;
+}
+
+/* 商品4图片框 */
+.eighth .child2 .list2 li:nth-child(4) div:nth-child(1) {
+    position: absolute;
+    top: 12px;
+    left: 45px;
+    width: 145px;
+    height: 145px;
+}
+
+/* 商品4标题 */
+.eighth .child2 .list2 li:nth-child(4) div:nth-child(2) {
+    position: absolute;
+    top: 168px;
+    left: 18px;
+    width: 205px;
+    height: 33px;
+}
+/* 商品4价格 */
+.eighth .child2 .list2 li:nth-child(4) div:nth-child(3) {
+    position: absolute;
+    top: 210px;
+    left: 83px;
+    width: 73px;
+    height: 14px;
+}
+
+/* 商品5 */
+.eighth .child2 .list2 li:nth-child(5) {
+    position: absolute;
+    top: 240px;
+    left: 240px;
+    width: 240px;
+    height: 240px;
+}
+
+/* 商品5图片框 */
+.eighth .child2 .list2 li:nth-child(5) div:nth-child(1) {
+    position: absolute;
+    top: 4px;
+    left: 39px;
+    width: 161px;
+    height: 161px;
+}
+
+/* 商品5标题 */
+.eighth .child2 .list2 li:nth-child(5) div:nth-child(2) {
+    position: absolute;
+    top: 168px;
+    left: 20px;
+    width: 197px;
+    height: 33px;
+}
+/* 商品5价格 */
+.eighth .child2 .list2 li:nth-child(5) div:nth-child(3) {
+    position: absolute;
+    top: 210px;
+    left: 82px;
+    width: 73px;
+    height: 14px;
+}
+
+/* 商品6 */
+.eighth .child2 .list2 li:nth-child(6) {
+    position: absolute;
+    top: 240px;
+    left: 480px;
+    width: 240px;
+    height: 240px;
+}
+
+/* 商品6图片框 */
+.eighth .child2 .list2 li:nth-child(6) div:nth-child(1) {
+    position: absolute;
+    top: 2px;
+    left: 39px;
+    width: 162px;
+    height: 162px;
+}
+
+/* 商26标题 */
+.eighth .child2 .list2 li:nth-child(6) div:nth-child(2) {
+    position: absolute;
+    top: 168px;
+    left: 20px;
+    width: 194px;
+    height: 33px;
+}
+/* 商品6价格 */
+.eighth .child2 .list2 li:nth-child(6) div:nth-child(3) {
+    position: absolute;
+    top: 210px;
+    left: 83px;
+    width: 73px;
+    height: 14px;
+}
+
+/* item3 标题字体样式 */
+.eighth .child2 .list2 li div:nth-child(2) {
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    color: #333333;
+}
+
+/* item3 价格字体样式 */
+.eighth .child2 .list2 li div:nth-child(3) {
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    letter-spacing: 0;
+    color: #ff2e2e;
+}
+
+/* item4 标题字体样式 */
+.eighth .child2 .list2 li div:nth-child(2) {
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    color: #333333;
+}
+
+/* item4 价格字体样式 */
+.eighth .child2 .list2 li div:nth-child(3) {
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: 0;
+    color: #ff2e2e;
+}
+
+/* 右侧商品展示 */
+.eighth .child3 {
+    position: absolute;
+    top: 0;
+    left: 962px;
+    width: 238px;
+    height: 540px;
+}
+
+/* 热门推荐 */
+.eighth .child3 .item1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 238px;
+    height: 58px;
+    border-bottom: 2px solid #eee;
+}
+.eighth .child3 .item1 div {
+    position: absolute;
+    top: 20px;
+    left: 17px;
+    width: 72px;
+    height: 19px;
+    /* 字体样式 */
+    font-family: MicrosoftYaHei;
+    font-size: 18px;
+    letter-spacing: 0;
+    color: #333333;
+}
+
+/* 推荐排名展示 */
+.eighth .child3 .item2 {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 238px;
+    height: 480px;
+}
+
+/* 排名第一样式 */
+.eighth .child3 .item2 .list1 {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    width: 218px;
+    height: 100px;
+    border-bottom: 1px solid #eeeeee;
+}
+/* 排名 */
+.eighth .child3 .item2 .list1 div:nth-child(1) {
+    position: absolute;
+    top: 41px;
+    left: 1px;
+    width: 16px;
+    height: 16px;
+    background-color: #ff2e2e;
+    border-radius: 50%;
+}
+/* 标题 */
+.eighth .child3 .item2 .list1 div:nth-child(2) {
+    position: absolute;
+    top: 19px;
+    left: 117px;
+    width: 93px;
+    height: 33px;
+}
+/* 价格 */
+.eighth .child3 .item2 .list1 div:nth-child(3) {
+    position: absolute;
+    top: 64px;
+    left: 116px;
+    width: 73px;
+    height: 14px;
+}
+/* 图片 */
+.eighth .child3 .item2 .list1 div:nth-child(4) {
+    position: absolute;
+    top: 0;
+    left: 17px;
+    width: 100px;
+    height: 100px;
+}
+
+/* 排名第二的样式 */
+.eighth .child3 .item2 .list2 {
+    position: absolute;
+    top: 121px;
+    left: 10px;
+    width: 218px;
+    height: 57px;
+    border-bottom: 1px solid #eeeeee;
+}
+.eighth .child3 .item2 .list2 div:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 1px;
+    width: 16px;
+    height: 16px;
+    background-color: #666666;
+    border-radius: 50%;
+}
+.eighth .child3 .item2 .list2 div:nth-child(2){
+    position: absolute;
+    top: -2px;
+    left: 27px;
+    width: 180px;
+    height: 13px;
+}
+.eighth .child3 .item2 .list2 div:nth-child(3){
+    position: absolute;
+    top: 23px;
+    left: 26px;
+    width: 73px;
+    height: 14px;
+}
+
+/* 排名第三的样式 */
+.eighth .child3 .item2 .list3 {
+    position: absolute;
+    top: 198px;
+    left: 10px;
+    width: 218px;
+    height: 56px;
+    border-bottom: 1px solid #eeeeee;
+}
+.eighth .child3 .item2 .list3 div:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 1px;
+    width: 16px;
+    height: 16px;
+    background-color: #666666;
+    border-radius: 50%;
+}
+.eighth .child3 .item2 .list3 div:nth-child(2){
+    position: absolute;
+    top: -2px;
+    left: 27px;
+    width: 180px;
+    height: 12px;
+}
+.eighth .child3 .item2 .list3 div:nth-child(3){
+    position: absolute;
+    top: 23px;
+    left: 26px;
+    width: 73px;
+    height: 14px;
+}
+
+/* 排名第四的样式 */
+.eighth .child3 .item2 .list4 {
+    position: absolute;
+    top: 275px;
+    left: 10px;
+    width: 218px;
+    height: 56px;
+    border-bottom: 1px solid #eeeeee;
+}
+.eighth .child3 .item2 .list4 div:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 1px;
+    width: 16px;
+    height: 16px;
+    background-color: #aaaaaa;
+    border-radius: 50%;
+}
+.eighth .child3 .item2 .list4 div:nth-child(2){
+    position: absolute;
+    top: -2px;
+    left: 27px;
+    width: 187px;
+    height: 12px;
+}
+.eighth .child3 .item2 .list4 div:nth-child(3){
+    position: absolute;
+    top: 23px;
+    left: 26px;
+    width: 73px;
+    height: 14px;
+}
+
+/* 排名第五的样式 */
+.eighth .child3 .item2 .list5 {
+    position: absolute;
+    top: 352px;
+    left: 10px;
+    width: 218px;
+    height: 56px;
+    border-bottom: 1px solid #eeeeee;
+}
+.eighth .child3 .item2 .list5 div:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 1px;
+    width: 16px;
+    height: 16px;
+    background-color: #aaaaaa;
+    border-radius: 50%;
+}
+.eighth .child3 .item2 .list5 div:nth-child(2){
+    position: absolute;
+    top: -2px;
+    left: 27px;
+    width: 187px;
+    height: 12px;
+}
+.eighth .child3 .item2 .list5 div:nth-child(3){
+    position: absolute;
+    top: 23px;
+    left: 26px;
+    width: 73px;
+    height: 14px;
+}
+
+/* 排名第六的样式 */
+.eighth .child3 .item2 .list6 {
+    position: absolute;
+    top: 429px;
+    left: 10px;
+    width: 218px;
+    height: 56px;
+}
+.eighth .child3 .item2 .list6 div:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 1px;
+    width: 16px;
+    height: 16px;
+    background-color: #aaaaaa;
+    border-radius: 50%;
+}
+.eighth .child3 .item2 .list6 div:nth-child(2){
+    position: absolute;
+    top: -2px;
+    left: 27px;
+    width: 187px;
+    height: 12px;
+}
+.eighth .child3 .item2 .list6 div:nth-child(3){
+    position: absolute;
+    top: 23px;
+    left: 26px;
+    width: 73px;
+    height: 14px;
+}
+
+/* 序号字体 */
+.eighth .child3 .item2 .list div:nth-child(1) {
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    letter-spacing: 0;
+    color: #ffffff;
+    text-align: center;
+    line-height: 16px;
+}
+/* 标题字体 */
+.eighth .child3 .item2 .list div:nth-child(2) {
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #333333;
+}
+/* 价格字体 */
+.eighth .child3 .item2 .list div:nth-child(3) {
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    letter-spacing: 0;
+    color: #ff2e2e;
+}

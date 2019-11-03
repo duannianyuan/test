@@ -1,0 +1,105 @@
+/* banner事件样式 */
+.banner_onclick {
+    position: absolute;
+    top: 200px;
+    left: 560px;
+    width: 800px;
+    height: 441px;
+}
+
+.banner_onclick .left {
+    position: absolute;
+    top: 192px;
+    left: 0;
+    width: 33px;
+    height: 57px;
+    background-image: url("../img/left.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    opacity: 1;
+}
+
+.banner_onclick .left:hover {
+    background-color: lightgrey;
+    opacity: 0.2;
+}
+
+
+.banner_onclick .right {
+    position: absolute;
+    top: 192px;
+    right: 0;
+    width: 33px;
+    height: 57px;
+    background-image: url("../img/right.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    opacity: 1;
+}
+
+.banner_onclick .right:hover {
+    background-color: lightgrey;
+    opacity: 0.2;
+}
+
+
+.banner_onclick .btn1 {
+    position: absolute;
+    top: 413px;
+    left: 372px;
+    width: 8px;
+    height: 8px;
+    background-image: url("../img/vav.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.banner_onclick .btn2 {
+    position: absolute;
+    top: 413px;
+    left: 384px;
+    width: 8px;
+    height: 8px;
+    background-image: url("../img/vav.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.banner_onclick .btn3 {
+    position: absolute;
+    top: 413px;
+    left: 396px;
+    width: 8px;
+    height: 8px;
+    background-image: url("../img/vav.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.banner_onclick .btn4 {
+    position: absolute;
+    top: 413px;
+    left: 408px;
+    width: 8px;
+    height: 8px;
+    background-image: url("../img/vav.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.banner_onclick .btn5 {
+    position: absolute;
+    top: 413px;
+    left: 420px;
+    width: 8px;
+    height: 8px;
+    background-image: url("../img/vav1.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.banner_onclick .btn:hover {
+    background-image: url("../img/vav1.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}

@@ -1,0 +1,166 @@
+/* 版权等样式 */
+.eleventh {
+    position: absolute;
+    top: 238px;
+    width: 1920px;
+    height: 93px;
+}
+
+.eleventh .child1 {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 57px;
+    background-color: #666;
+}
+
+.eleventh .child1 div {
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    letter-spacing: 0;
+    color: #fefefe;
+}
+
+.eleventh .child1 div:nth-child(1) {
+    position: absolute;
+    top: 14px;
+    left: 664px;
+    width: 592px;
+    height: 12px;
+    word-spacing: 15px;
+    text-align: center;
+    line-height: 12px;
+}
+
+.eleventh .child1 div:nth-child(2) {
+    position: absolute;
+    bottom: 8px;
+    left: 663px;
+    width: 594px;
+    height: 12px;
+    text-align: left;
+    letter-spacing: 0;
+    line-height: 12px;
+}
+
+/* last */
+.eleventh .child2 {
+    position: absolute;
+    top: 57px;
+    width: 100vw;
+    height: 36px;
+    background-color: #333;
+}
+
+.eleventh .child2 .flex {
+    position: absolute;
+    top: 7px;
+    left: 641px;
+    width: 634px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+}
+
+.eleventh .child2 .flex div {
+    flex-grow: 1;
+}
+
+/* 图标1 */
+.eleventh .child2 .flex div:nth-child(1) span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 21px;
+    height: 23px;
+    background-image: url("../img/footer_1.png");
+}
+
+.eleventh .child2 .flex div:nth-child(1) span:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    width: 60px;
+    height: 23px;
+}
+
+/* 图标2 */
+.eleventh .child2 .flex div:nth-child(2) span:nth-child(1) {
+    position: absolute;
+    top: 1px;
+    left: 143px;
+    width: 21px;
+    height: 22px;
+    background-image: url("../img/footer_2.png");
+}
+
+.eleventh .child2 .flex div:nth-child(2) span:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 173px;
+    width: 60px;
+    height: 23px;
+}
+
+/* 图标3 */
+.eleventh .child2 .flex div:nth-child(3) span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 279px;
+    width: 23px;
+    height: 23px;
+    background-image: url("../img/footer_3.png");
+}
+
+.eleventh .child2 .flex div:nth-child(3) span:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 312px;
+    width: 60px;
+    height: 23px;
+}
+
+/* 图标4 */
+.eleventh .child2 .flex div:nth-child(4) span:nth-child(1) {
+    position: absolute;
+    top: 2px;
+    left: 416px;
+    width: 23px;
+    height: 19px;
+    background-image: url("../img/footer_4.png");
+}
+
+.eleventh .child2 .flex div:nth-child(4) span:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 449px;
+    width: 60px;
+    height: 23px;
+}
+
+/* 图标5 */
+.eleventh .child2 .flex div:nth-child(5) span:nth-child(1) {
+    position: absolute;
+    top: 1px;
+    left: 546px;
+    width: 26px;
+    height: 22px;
+    background-image: url("../img/footer_5.png");
+}
+
+.eleventh .child2 .flex div:nth-child(5) span:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 580px;
+    width: 60px;
+    height: 23px;
+}
+
+/* 字体样式 */
+.eleventh .child2 .flex div span:nth-child(2) {
+    font-family: MicrosoftYaHei;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0;
+    color: #fefefe;
+}

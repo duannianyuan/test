@@ -1,0 +1,127 @@
+/* 售后服务 */
+.ninth {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* 弹性盒模型 */
+.ninth div:nth-child(1) {
+    flex-basis: 360px;
+    height: 100px;
+}
+
+.ninth div:nth-child(2) {
+    flex-basis: 300px;
+    height: 100px;
+    border-right: 1px solid #eeeeee;
+}
+
+.ninth div:nth-child(3) {
+    flex-basis: 298px;
+    height: 100px;
+    border-right: 1px solid #eeeeee;
+}
+
+.ninth div:nth-child(4) {
+    flex-basis: 299px;
+    height: 100px;
+    border-right: 1px solid #eeeeee;
+}
+
+.ninth div:nth-child(5) {
+    flex-grow: 1;
+    height: 100px;
+}
+
+.ninth div:nth-child(6) {
+    flex-basis: 360px;
+    height: 100px;
+}
+
+/* 服务1 */
+.ninth div:nth-child(2) .item1 {
+    position: absolute;
+    top: 30px;
+    left: 400px;
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/seven_day.png");
+    background-size: 100%;
+}
+
+.ninth div:nth-child(2) .item2 {
+    position: absolute;
+    top: 42px;
+    left: 456px;
+    width: 134px;
+    height: 20px;
+}
+
+/* 服务2 */
+.ninth div:nth-child(3) .item3 {
+    position: absolute;
+    top: 30px;
+    left: 701px;
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/fifteen_day.png");
+    background-size: 100%;
+}
+
+.ninth div:nth-child(3) .item4 {
+    position: absolute;
+    top: 42px;
+    left: 758px;
+    width: 124px;
+    height: 21px;
+}
+
+/* 服务3 */
+.ninth div:nth-child(4) .item5 {
+    position: absolute;
+    top: 30px;
+    left: 1000px;
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/goods.png");
+    background-size: 100%;
+}
+
+.ninth div:nth-child(4) .item6 {
+    position: absolute;
+    top: 42px;
+    left: 1056px;
+    width: 171px;
+    height: 21px;
+}
+
+/* 服务4 */
+.ninth div:nth-child(5) .item7 {
+    position: absolute;
+    top: 30px;
+    left: 1300px;
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/after_sale.png");
+    background-size: 100%;
+}
+
+.ninth div:nth-child(5) .item8 {
+    position: absolute;
+    top: 42px;
+    left: 1356px;
+    width: 120px;
+    height: 21px;
+}
+
+/* 字体样式 */
+.ninth div .item {
+    font-family: MicrosoftYaHei;
+    font-size: 20px;
+    letter-spacing: 0;
+    color: #333333;
+}

@@ -1,0 +1,292 @@
+/* banner */
+.fourth {
+    position: relative;
+    width: 100vw;
+    height: 441px;
+    background-image: url("../img/banner_background.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.fourth .item1 {
+    position: absolute;
+    top: 0;
+    left: 360px;
+    width: 200px;
+    height: 441px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.fourth .item1 .child {
+    width: 200px;
+    height: 50px;
+
+    /* 字体样式 */
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    letter-spacing: 0;
+    color: #333333;
+}
+
+.fourth .item1 .child:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+/* 选项一 */
+.fourth .item1 .child1 div:nth-child(1) {
+     position: absolute;
+     top: 13px;
+     left: 36px;
+     width: 19px;
+     height: 24px;
+     background-image: url("../img/house_eletric.png");
+     -webkit-background-size: 100%;
+     background-size: 100%;
+
+ }
+
+.fourth .item1 .child1 div:nth-child(2) {
+    position: absolute;
+    top: 17px;
+    left: 74px;
+    width: 83px;
+    height: 16px;
+}
+
+/* 选项二 */
+.fourth .item1 .child2 div:nth-child(1) {
+    position: absolute;
+    top: 61px;
+    left: 34px;
+    width: 24px;
+    height: 22px;
+    background-image: url("../img/com.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+
+}
+
+.fourth .item1 .child2 div:nth-child(2) {
+    position: absolute;
+    top: 65px;
+    left: 74px;
+    width: 83px;
+    height: 16px;
+}
+
+/* 选项三 */
+.fourth .item1 .child3 div:nth-child(1) {
+    position: absolute;
+    top: 116px;
+    left: 34px;
+    width: 24px;
+    height: 21px;
+    background-image: url("../img/sofa.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+
+}
+
+.fourth .item1 .child3 div:nth-child(2) {
+    position: absolute;
+    top: 117px;
+    left: 74px;
+    width: 83px;
+    height: 16px;
+}
+
+/* 选项四 */
+.fourth .item1 .child4 div:nth-child(1) {
+    position: absolute;
+    top: 165px;
+    left: 34px;
+    width: 24px;
+    height: 20px;
+    background-image: url("../img/cloth.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+
+}
+
+.fourth .item1 .child4 div:nth-child(2) {
+    position: absolute;
+    top: 167px;
+    left: 74px;
+    width: 83px;
+    height: 16px;
+}
+
+/* 选项五 */
+.fourth .item1 .child5 div:nth-child(1) {
+    position: absolute;
+    top: 213px;
+    left: 38px;
+    width: 16px;
+    height: 24px;
+    background-image: url("../img/bag.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+
+}
+
+.fourth .item1 .child5 div:nth-child(2) {
+    position: absolute;
+    top: 217px;
+    left: 74px;
+    width: 83px;
+    height: 16px;
+}
+
+/* 选项六 */
+.fourth .item1 .child6 div:nth-child(1) {
+    position: absolute;
+    top: 263px;
+    left: 42px;
+    width: 9px;
+    height: 24px;
+    background-image: url("../img/paint.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+
+}
+
+.fourth .item1 .child6 div:nth-child(2) {
+    position: absolute;
+    top: 257px;
+    left: 74px;
+    width: 83px;
+    height: 16px;
+}
+
+
+/* 轮播图盒子 */
+.fourth .item2 {
+    position: absolute;
+    top: 0;
+    left: 560px;
+    width: 800px;
+    height: 441px;
+}
+
+.fourth .item2 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 800px;
+    height: 441px;
+    opacity: 1;
+}
+
+/* 展示图 */
+.fourth .item3 {
+    position: absolute;
+    top: 0;
+    left: 1360px;
+    width: 200px;
+    height: 200px;
+}
+
+.fourth .item3 img:nth-child(1) {
+    position: absolute;
+    top: 18px;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    opacity: 0.8;
+}
+
+.fourth .item3 img:nth-child(2) {
+    position: absolute;
+    top: 222px;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    opacity: 0.8;
+}
+
+/* 脱离文档流内容 */
+.fourth .item4 {
+    position: fixed;
+    top: 465px;
+    left: 1560px;
+    width: 40px;
+    height: 160px;
+    /*background-color: pink;*/
+}
+
+/* 客服 */
+.fourth .item4 div:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    background-color: #ffffff;
+    border: solid 1px #cccccc;
+}
+.fourth .item4 div:nth-child(1) span {
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    width: 19px;
+    height: 18px;
+    background-image: url("../img/custorm_sever.png");
+}
+/* 微信 */
+.fourth .item4 div:nth-child(2) {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    background-color: #ffffff;
+    border: solid 1px #cccccc;
+    border-top: none;
+}
+.fourth .item4 div:nth-child(2) span {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    width: 20px;
+    height: 17px;
+    background-image: url("../img/wechat.png");
+}
+/* 电话 */
+.fourth .item4 div:nth-child(3) {
+    position: absolute;
+    top: 79px;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    background-color: #ffffff;
+    border: solid 1px #cccccc;
+    border-top: none;
+}
+.fourth .item4 div:nth-child(3) span {
+    position: absolute;
+    top: 10px;
+    left: 14px;
+    width: 13px;
+    height: 20px;
+    background-image: url("../img/phone.png");
+}
+/* 返回顶部 */
+.fourth .item4 div:nth-child(4) {
+    position: absolute;
+    top: 118px;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    background-color: #ffffff;
+    border: solid 1px #cccccc;
+    border-top: none;
+}
+.fourth .item4 div:nth-child(4) span {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    width: 20px;
+    height: 17px;
+    background-image: url("../img/back.png");
+}

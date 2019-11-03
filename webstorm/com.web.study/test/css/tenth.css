@@ -1,0 +1,190 @@
+.tenth {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 238px;
+}
+
+.tenth .child1 {
+    position: absolute;
+    top: 31px;
+    left: 360px;
+    width: 1017px;
+    height: 19px;
+    display: flex;
+    flex-direction: row;
+    /*background-color: pink;*/
+}
+
+.tenth .child1 div {
+    flex-grow: 1;
+    height: 19px;
+    font-family: MicrosoftYaHei;
+    font-size: 18px;
+    letter-spacing: 0;
+    color: #333333;
+    text-align: left;
+}
+
+.tenth .child1 div:nth-child(2) {
+    padding-left: 54px;
+}
+
+.tenth .child1 div:nth-child(3) {
+    padding-left: 60px;
+}
+
+.tenth .child1 div:nth-child(4) {
+    padding-left: 50px;
+}
+
+.tenth .child1 div:nth-child(5) {
+    padding-left: 60px;
+}
+
+.tenth .child1 div:nth-child(6) {
+    text-align: right;
+}
+
+.tenth .child {
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 23px;
+    color: #666666;
+}
+
+/* 新手上路 */
+.tenth .child2 {
+    position: absolute;
+    top: 69px;
+    left: 360px;
+    width: 85px;
+    height: 112px;
+}
+
+/* 购物指南 */
+.tenth .child3 {
+     position: absolute;
+     top: 69px;
+     left: 545px;
+     width: 85px;
+     height: 112px;
+ }
+
+
+/* 售后服务 */
+.tenth .child4 {
+    position: absolute;
+    top: 69px;
+    left: 738px;
+    width: 70px;
+    height: 88px;
+}
+
+
+/* 支付方式 */
+.tenth .child5 {
+    position: absolute;
+    top: 69px;
+    left: 921px;
+    width: 70px;
+    height: 88px;
+}
+
+/* 配送方式 */
+.tenth .child6 {
+    position: absolute;
+    top: 69px;
+    left: 1113px;
+    width: 70px;
+    height: 88px;
+}
+
+/* 联系我们 */
+.tenth .child7 {
+    position: absolute;
+    top: 59px;
+    left: 1305px;
+    width: 115px;
+    height: 15px;
+    font-family: MicrosoftYaHei;
+    font-size: 18px;
+    letter-spacing: 0;
+    color: #fc3e3e;
+}
+
+.tenth .child8 {
+    position: absolute;
+    top: 93px;
+    left: 1305px;
+    width: 162px;
+    height: 38px;
+}
+
+/* 友情链接 */
+.tenth .child9 {
+    position: absolute;
+    top: 209px;
+    left: 360px;
+    width: 253px;
+    height: 19px;
+    display: flex;
+    flex-direction: row;
+}
+
+.tenth .child9 div:nth-child(1) {
+    /*flex-basis: 100px;*/
+    flex-grow: 1;
+    font-family: MicrosoftYaHei;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 19px;
+    color: #333333;
+}
+
+.tenth .child9 div:nth-child(2) {
+    flex-grow: 3;
+}
+
+.tenth .child9 div:nth-child(2) a {
+    text-decoration: none;
+}
+
+.tenth .child9 div:nth-child(3) {
+    flex-grow: 1;
+}
+
+.tenth .child9 div:nth-child(3) a {
+    text-decoration: none;
+}
+
+.tenth .child9 div a {
+    font-family: MicrosoftYaHei;
+    letter-spacing: 0;
+    color: #666666;
+    line-height: 19px;
+}
+
+/* 二维码 */
+.tenth .child10 .item1 {
+    position: absolute;
+    top: 151px;
+    left: 1306px;
+    width: 88px;
+    height: 88px;
+    background-image: url("../img/twocode_1.jpg");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.tenth .child10 .item2 {
+    position: absolute;
+    top: 151px;
+    left: 1427px;
+    width: 88px;
+    height: 88px;
+    background-image: url("../img/twocode_2.jpg");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}

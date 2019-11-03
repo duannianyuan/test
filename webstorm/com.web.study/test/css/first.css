@@ -1,0 +1,103 @@
+/* 导航栏 */
+.first {
+    /*position: absolute;*/
+    width: 100vw;
+    height: 40px;
+    background-color: #ddd;
+}
+
+.first .item1 {
+    float: left;
+    width: 190px;
+    height: 14px;
+    margin: 12px 372px;
+    /*background-color: red;*/
+    cursor: pointer;
+}
+
+.first .item1 span:nth-child(1) {
+    float: left;
+    width: 11px;
+    height: 14px;
+    background-image: url("../img/index.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.first .item1 span:nth-child(2) {
+    float: left;
+    width: 154px;
+    height: 15px;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0;
+    color: #333333;
+
+    margin-left: 6px;
+}
+
+.first .item1 span:nth-child(3) {
+    float: left;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 7px solid #333333;
+
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.first .item2 {
+    float: right;
+    width: 623px;
+    height: 14px;
+    /*background-color: pink;*/
+    margin-top: 12px;
+    margin-right: 360px;
+}
+
+.first .item2 a {
+    /* 导航链接 */
+    display: block;
+    float: left;
+    text-decoration: none;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0;
+    color: #666666;
+    margin-top: 0;
+    margin-left: 14px;
+    cursor: pointer;
+}
+
+.first .item2 a:nth-child(1) {
+    margin-left: 0;
+}
+
+
+.first .item2 span {
+    float: left;
+    height: 10px;
+    border: 1px solid #ccc;
+
+    margin-left: 14px;
+    margin-top: 2px;
+}
+
+.first .item2 .child {
+    /* 导航栏下拉了列表 */
+    float: left;
+    width: 10px;
+    height: 6px;
+    margin-top: 4px;
+    margin-left: 6px;
+    background-image: url("../img/pic_13.png");
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+
+
